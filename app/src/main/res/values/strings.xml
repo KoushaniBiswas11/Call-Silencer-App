@@ -1,3 +1,5 @@
-<resources>
-    <string name="app_name">CallSilencer</string>
-</resources>
+
+    <resources>
+        <string name="app_name" translatable="false">CallSilencer</string>
+        <string name="default_web_client_id" translatable="false">1008023658650-a5cgk9bfpf02l3d42637m9kqa61dslbr.apps.googleusercontent.com</string>
+    </resources>

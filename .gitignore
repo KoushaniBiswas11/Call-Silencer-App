@@ -1,15 +1,22 @@
+# Google Services (contains API keys — never commit this!)
+google-services.json
+
+# Build files
 *.iml
 .gradle
 /local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
+/.idea
 /captures
 .externalNativeBuild
 .cxx
-local.properties
+*.apk
+*.aab
+/build
+/app/build
+
+# Keystore files
+*.jks
+*.keystore
+
+# DS Store (Mac)
+.DS_Store

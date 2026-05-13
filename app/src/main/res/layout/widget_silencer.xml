@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#1A1F3C"
+    android:gravity="center_vertical"
+    android:padding="12dp">
+
+    <!-- Moon icon -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🌙"
+        android:textSize="28sp"
+        android:layout_marginEnd="12dp"/>
+
+    <!-- Status text -->
+    <TextView
+        android:id="@+id/widget_status"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="🔔 Inactive"
+        android:textColor="#EEEEFF"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <!-- Toggle button -->
+    <TextView
+        android:id="@+id/widget_toggle_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Turn ON"
+        android:textColor="#8888FF"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:background="#252B4A"
+        android:padding="8dp"/>
+
+</LinearLayout>
